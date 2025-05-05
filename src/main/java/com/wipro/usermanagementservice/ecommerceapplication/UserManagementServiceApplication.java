@@ -1,4 +1,4 @@
-package com.wipro.usermanagementservice;
+package com.wipro.usermanagementservice.ecommerceapplication;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
