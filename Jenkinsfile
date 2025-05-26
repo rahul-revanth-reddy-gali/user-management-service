@@ -7,12 +7,6 @@ pipeline {
     }
 
     stages {
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/rahul-revanth-reddy-gali/user-management-service.git'
-            }
-        }
-
         stage('Build') {
             steps {
                 sh './mvnw clean package -DskipTests'
